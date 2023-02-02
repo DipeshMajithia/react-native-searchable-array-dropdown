@@ -28,6 +28,9 @@ Properties:
 
 
 
+![Output For Search Dropdown](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchArrayDropdown1.png)
+
+
 1. setSelectedValue (\*Required)
 
 code:
@@ -86,7 +89,7 @@ function App() {
 export default App;
 ```
 
-![Output For initialTitle](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/title.png)
+![Output For initialTitle](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchInitialTitle.png)
 
 4. mainView (Optional)
 
@@ -111,7 +114,7 @@ function App() {
 export default App;
 ```
 
-![Output For mainView](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/mainView.png)
+![Output For mainView](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchMainView.png)
 
 5. titleStyle (Optional)
 
@@ -138,7 +141,7 @@ function App() {
 export default App;
 ```
 
-![Output For titleStyle](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/titleStyle.png)
+![Output For titleStyle](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchTitleStyle.png)
 
 6. dropdownContainer (Optional)
 
@@ -169,7 +172,7 @@ function App() {
 export default App;
 ```
 
-![Output For dropdownContainer](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/dropdownContainer.png)
+![Output For dropdownContainer](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchDropdownContainer.png)
 
 7. dropdownItemContainer (Optional)
 
@@ -203,7 +206,7 @@ function App() {
 export default App;
 ```
 
-![Output For dropdownItemContainer](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/dropdownItemContainer.png)
+![Output For dropdownItemContainer](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/searchDropdownIconContainer.png)
 
 8. dropdownItemText (Optional)
 
@@ -239,7 +242,7 @@ function App() {
 export default App;
 ```
 
-![Output For dropdownItemText](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/dropdownItemText.png)
+![Output For dropdownItemText](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchDropdownIcontext.png)
 
 9. dropdownSelectedItemContainer (Optional)
 
@@ -281,7 +284,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-![Output For dropdownSelectedItemContainer](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/dropdownSelectedItemContainer.png)
+![Output For dropdownSelectedItemContainer](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchSelectedItemContainer.png)
 
 10. dropdownSelectedItemText (Optional)
 
@@ -319,7 +322,7 @@ function App() {
 export default App;
 ```
 
-![Output For dropdownSelectedItemText](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/dropdownSelectedItemText.png)
+![Output For dropdownSelectedItemText](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchDropdownSelectedItemText.png)
 
 11. imagePath (Optional)
 
@@ -361,7 +364,7 @@ function App() {
 export default App;
 ```
 
-![Output For imagePath](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/ImagePath.png)
+![Output For imagePath](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/searchImagePath.png)
 
 12. imageStyle (Optional)
 
@@ -405,7 +408,7 @@ function App() {
 export default App;
 ```
 
-![Output For imageStyle](https://github.com/DipeshMajithia/react-native-array-dropdown/blob/main/screenshot/imageStyle.png)
+![Output For imageStyle](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchImageStyle.png)
 
 13. touchOpacity (Optional)
 
@@ -494,6 +497,7 @@ function App() {
 }
 export default App;
 ```
+![Output For searchIcon](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/searchIcon.png)
 
 
 15. searchImageStyle (Optional)
@@ -542,6 +546,8 @@ function App() {
 }
 export default App;
 ```
+![Output For searchImageStyle](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchImageStyle.png)
+
 
 16. searchContainer (Optional)
 
@@ -590,6 +596,8 @@ function App() {
 }
 export default App;
 ```
+![Output For searchContainer](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/searchContainer.png)
+
 
 17. showSearch (Optional)
 
@@ -639,6 +647,7 @@ function App() {
 }
 export default App;
 ```
+![Output For searchContainer](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/showSearch.png)
 
 17. searchPlaceholder (Optional)
 
@@ -689,3 +698,5 @@ function App() {
 }
 export default App;
 ```
+
+![Output For searchPlaceholder](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/searchPlaceholder.png)
