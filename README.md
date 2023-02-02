@@ -5,17 +5,10 @@ More details and properties below:
 
 Properties:
 
-| Property                      | Type           | Default                     | Description                                                |
-| ----------------------------- | -------------- | --------------------------- | ---------------------------------------------------------- |
-| setSelectedValue (Required)   | Function       | null                        | Returns the selected value                                 |
-| data (Required)               | array          | [
-    'Demo1',
-    'Demo2',
-    'Demo3',
-    'Laptop',
-    'Aeroplane',
-    'Mode',
-  ] | Array of values you want in your dropdown.                 |
+|Property|Type|Default|Description|
+|-------|-------|-------|-------|
+|setSelectedValue (Required)  | Function | null  | Returns the selected value  |
+|data (Required)  | array | ['Demo1','Demo2','Demo3','Laptop','Aeroplane','Mode']  | Array of values you want in your dropdown.  |
 | initialTitle                  | String         | --Select--                  | Placeholder                                                |
 | mainView                      | ViewStyle      | defaultStyle                | To change the view of main container                       |
 | titleStyle                    | ViewStyle      | defaultStyle                | To change the style of title(Option Selected)              |
