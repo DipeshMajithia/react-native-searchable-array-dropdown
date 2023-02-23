@@ -1,4 +1,4 @@
-# react-native-customizable-array-dropdown
+# react-native-search-array-dropdown
 
 This library will take array as input and create a dropdown based on it.
 More details and properties below:
