@@ -25,7 +25,17 @@ Properties:
 | searchContainer                  | TextInput Style        |defaultStyle                       | To change the style of search container                       |
 | showSearch                  | Boolean        | true                        | Show/Hide search bar                       |
 | searchPlaceholder                  | String        | Search                       | Search Placeholder                       |
+| searchTextColor                  | color        | white                       | Change color of search text                       |
+| placeholderTextColor                  | color        | white                       | Change color of search placeholder text                       |
+| searchBarPlace                  | Inside        | String                       | Change position of search bar                       |
+| | | |
 
+
+
+Version 2 Update:
+You can place searchbar inside the component too:
+
+![Output For searchPlaceholder](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchBarPlace.png)
 
 
 ![Output For Search Dropdown](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchArrayDropdown1.png)
@@ -700,3 +710,168 @@ export default App;
 ```
 
 ![Output For searchPlaceholder](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/searchPlaceholder.png)
+
+18. searchTextColor (Optional)
+
+code:
+
+```
+
+import Icon from './caret-down.png';
+
+function App() {
+  const [selectedValue, setSelectedValue] = useState('');
+  return (
+      <Dropdown
+        setSelectedValue={setSelectedValue}
+        data={['Item1', 'Item2', 'Item3', 'Item4', 'Item5', 'Item6', 'Item7']}
+        initialTitle="Select Option"
+        mainView={{backgroundColor: 'skyblue', width: 300}}
+        titleStyle={{fontSize: 20, color: 'yellow'}}
+        dropdownContainer={{
+          backgroundColor: 'orange',
+          alignSelf: 'center',
+          width: 200,
+        }}
+        dropdownItemContainer={{
+          backgroundColor: 'magenta',
+          borderRadius: 30,
+        }}
+        dropdownItemText={{color: 'white', fontSize: 20}}
+        dropdownSelectedItemContainer={styles.fromStylesheet}
+        dropdownSelectedItemText={{color: 'white', fontSize: 20}}
+        imagePath={Icon}
+        imageStyle={{backgroundColor: 'pink', borderRadius: 20}}
+        touchOpacity={0.8}
+        searchIcon={require('./search2.png')}
+        searchImageStyle={{backgroundColor: 'red', right: 110}}
+        searchContainer={{backgroundColor: 'gold'}}
+        showSearch={true}
+        searchPlaceholder="Search Here..."
+
+        // Property code //
+        searchTextColor="red"
+
+    
+
+
+      />
+        );
+
+}
+export default App;
+```
+
+![Output For searchPlaceholder](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/placeholderTextColor.png)
+
+19. placeholderTextColor (Optional)
+
+code:
+
+```
+
+import Icon from './caret-down.png';
+
+function App() {
+  const [selectedValue, setSelectedValue] = useState('');
+  return (
+      <Dropdown
+        setSelectedValue={setSelectedValue}
+        data={['Item1', 'Item2', 'Item3', 'Item4', 'Item5', 'Item6', 'Item7']}
+        initialTitle="Select Option"
+        mainView={{backgroundColor: 'skyblue', width: 300}}
+        titleStyle={{fontSize: 20, color: 'yellow'}}
+        dropdownContainer={{
+          backgroundColor: 'orange',
+          alignSelf: 'center',
+          width: 200,
+        }}
+        dropdownItemContainer={{
+          backgroundColor: 'magenta',
+          borderRadius: 30,
+        }}
+        dropdownItemText={{color: 'white', fontSize: 20}}
+        dropdownSelectedItemContainer={styles.fromStylesheet}
+        dropdownSelectedItemText={{color: 'white', fontSize: 20}}
+        imagePath={Icon}
+        imageStyle={{backgroundColor: 'pink', borderRadius: 20}}
+        touchOpacity={0.8}
+        searchIcon={require('./search2.png')}
+        searchImageStyle={{backgroundColor: 'red', right: 110}}
+        searchContainer={{backgroundColor: 'gold'}}
+        showSearch={true}
+        searchPlaceholder="Search Here..."
+        searchTextColor="red"
+        
+        
+        // Property code //
+        placeholderTextColor="yellow"
+
+    
+
+
+      />
+        );
+
+}
+export default App;
+```
+
+![Output For searchPlaceholder](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/searchTextColor.png)
+
+
+
+19. placeholderTextColor (Optional)
+
+code:
+
+```
+
+import Icon from './caret-down.png';
+
+function App() {
+  const [selectedValue, setSelectedValue] = useState('');
+  return (
+      <Dropdown
+        setSelectedValue={setSelectedValue}
+        data={['Item1', 'Item2', 'Item3', 'Item4', 'Item5', 'Item6', 'Item7']}
+        initialTitle="Select Option"
+        mainView={{backgroundColor: 'skyblue', width: 300}}
+        titleStyle={{fontSize: 20, color: 'yellow'}}
+        dropdownContainer={{
+          backgroundColor: 'orange',
+          alignSelf: 'center',
+          width: 200,
+        }}
+        dropdownItemContainer={{
+          backgroundColor: 'magenta',
+          borderRadius: 30,
+        }}
+        dropdownItemText={{color: 'white', fontSize: 20}}
+        dropdownSelectedItemContainer={styles.fromStylesheet}
+        dropdownSelectedItemText={{color: 'white', fontSize: 20}}
+        imagePath={Icon}
+        imageStyle={{backgroundColor: 'pink', borderRadius: 20}}
+        touchOpacity={0.8}
+        searchIcon={require('./search2.png')}
+        searchImageStyle={{backgroundColor: 'red', right: 110}}
+        searchContainer={{backgroundColor: 'gold'}}
+        showSearch={true}
+        searchPlaceholder="Search Here..."
+        searchTextColor="red"
+        placeholderTextColor="yellow"
+        
+        // Property code //
+        searchBarPlace="Inside"
+
+    
+
+
+      />
+        );
+
+}
+export default App;
+```
+
+![Output For searchPlaceholder](https://github.com/DipeshMajithia/react-native-searchable-array-dropdown/blob/main/screenshots/SearchBarPlace.png)
